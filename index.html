@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fashion Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">👗 FashionStore</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sales">Sales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container text-center bg-light p-5">
+      <h1>Welcome to Fashion Store</h1>
+      <p>Your one-stop destination for style, comfort, and savings.</p>
+      <img
+        src="Images/shopingtime2.png"
+        class="img-fluid rounded"
+        alt="Shopping Time"
+      />
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="container py-5">
+      <h2 class="text-center mb-4">Shop by Category</h2>
+      <div class="row text-center g-4 img-fluid img text-center img color bg-light">
+        <div class="col-6 col-md-2">
+          <img
+            src="Images/t-shirt1.png"
+            class="img-fluid rounded"
+            alt="T-Shirts"
+          />
+          <p class="mt-2">T-Shirts</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <img
+            src="Images/sunglassesimg"
+            class="img-fluid rounded"
+            alt="Sunglasses"
+          />
+          <p class="mt-2">Sunglasses</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <img src="Images/shirt.png" class="img-fluid rounded" alt="Shirts" />
+          <p class="mt-2">Shirts</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <img src="Images/shoes" class="img-fluid rounded" alt="Shoes" />
+          <p class="mt-2">Shoes</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <img src="Images/pants.png" class="img-fluid rounded" alt="Pants" />
+          <p class="mt-2">Pants</p>
+        </div>
+        <div class="col-6 col-md-2">
+          <img
+            src="Images/perfumes.png"
+            class="img-fluid rounded"
+            alt="Perfumes"
+          />
+          <p class="mt-2">Perfumes</p>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Section -->
+    <section class="container py-5">
+      <h2 class="text-center">Fashion Gallery</h2>
+      <div class="row text-center g-4 img-fluid img text-center img color bg-light " >
+        <div class="col-md-4">
+          <img src="Images/Gimg1.png" class="img-fluid rounded" alt="Look 1" />
+        </div>
+        <div class="col-md-4">
+          <img src="Images/Gimg2.png" class="img-fluid rounded" alt="Look 2" />
+        </div>
+        <div class="col-md-4">
+          <img src="Images/Gimg3.png" class="img-fluid rounded" alt="Look 3" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sales Section -->
+    <section id="sales" class="container py-5">
+      <div class="row">
+      <h2 class="text-center mb-4">Upcoming Festival Sales</h2>
+      <table class="table table-bordered text-center">
+        <thead class="table-dark">
+          <tr>
+            <th>Festival</th>
+            <th>Discount</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Independence Day</td>
+            <td><s>30%</s> 40%</td>
+            <td>10 August</td>
+            <td>18 August</td>
+          </tr>
+          <tr>
+            <td>Diwali</td>
+            <td><s>50%</s> 60%</td>
+            <td>10 November</td>
+            <td>21 November</td>
+          </tr>
+          <tr>
+            <td>Christmas</td>
+            <td><s>35%</s> 50%</td>
+            <td>20 December</td>
+            <td>26 December</td>
+          </tr>
+          <tr>
+            <td>New Year</td>
+            <td><s>60%</s> 75%</td>
+            <td>30 December</td>
+            <td>6 January</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+      <h2 class="text-center mb-4">
+        Fashion Store: The One-stop Fashion Destination
+      </h2>
+      <p>
+        Shopping for fashion can be overwhelming—but not with Fashion Store.
+        Browse thousands of styles, order with ease, and enjoy flexible return
+        and exchange options. We’re here to make fashion fun, affordable, and
+        accessible.
+      </p>
+
+      <h3 class="mt-5">Festival Sales</h3>
+      <p>
+        We offer exclusive discounts during Indian festivals. Subscribe to stay
+        updated and never miss a deal!
+      </p>
+      <ul>
+        <li>Independence Day Sale</li>
+        <li>Diwali Sale</li>
+        <li>Christmas Sale</li>
+        <li>New Year Sale</li>
+      </ul>
+
+      <h3 class="mt-5">Payment Options</h3>
+      <p>
+        Choose from debit/credit cards, UPI, EMI, bank transfer, or cash on
+        delivery. We support secure and flexible payment methods to suit your
+        needs.
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white text-center p-3">
+      <p>© 2025 FashionStore. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
